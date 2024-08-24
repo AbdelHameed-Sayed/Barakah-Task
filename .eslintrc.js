@@ -1,8 +1,9 @@
 // https://docs.expo.dev/guides/using-eslint/
+
 module.exports = {
   root: true,
   extends: ['expo', 'eslint:recommended'],
-  plugins: ['import', 'react-native', 'prettier'],
+  plugins: ['import', 'react-native', 'prettier', '@tanstack/query'],
   rules: {
     'no-console': 'error',
     'no-empty': ['error', {allowEmptyCatch: true}],
@@ -11,6 +12,7 @@ module.exports = {
     'import/no-deprecated': 'error',
     'import/named': 'error',
     'import/no-duplicates': 'error',
+    '@tanstack/query/exhaustive-deps': 'error',
     'import/order': [
       'error',
       {
