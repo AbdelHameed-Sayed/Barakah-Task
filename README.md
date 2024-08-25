@@ -1,50 +1,37 @@
-# Welcome to your Expo app 👋
+# E-Commerce Mobile Application task
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a submission for the Senior React Native Developer position at Barakah. The task was to create an e-commerce mobile application using Expo, following a specific design and requirements.
 
-## Get started
+## Project Overview
 
-1. Install dependencies
+This application is designed to allow users to:
+- View products fetched from [Fake Store API](https://fakestoreapi.com/)
+- Add products to their cart
+- View items in their cart
 
-   ```bash
-   npm install
-   ```
+## Technology Stack
 
-2. Start the app
+- **React Native with Expo:** The application is built using Expo, a framework that helps to develop React Native applications faster.
+- **NativeWind:** For consistent and efficient styling, NativeWind (a Tailwind CSS implementation for React Native) has been utilized.
+- **Expo vector-icons:** Icons are integrated using the Expo vector-icons library to enhance the user interface.
+- **Redux & Redux-toolkit:** Redux-toolkit is used for global state management.
 
-   ```bash
-    npx expo start
-   ```
+## Tailwind Configuration
 
-In the output, you'll find options to open the app in a
+The color palette and other styling elements have been set up in the Tailwind configuration file to ensure consistency throughout the app.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Backend
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The backend for this project is provided by the [Fake Store API](https://fakestoreapi.com/), which is used to fetch product data.
 
-## Get a fresh project
+## Functionality
 
-When you're ready, run:
+- **Product Viewing:** Users can browse through a list of available products.
+- **Cart Management:** Users can add products to their cart and view the items in their cart.
 
-```bash
-npm run reset-project
-```
+## How to Run
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Run the application with `npm start`.
+   
